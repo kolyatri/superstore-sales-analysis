@@ -1,0 +1,14 @@
+# Power BI auto files
+*.pbit
+*.tmp
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python artifacts
+__pycache__/
+*.pyc
