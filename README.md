@@ -141,6 +141,8 @@ Business commentary under each section
 📈 Power BI Dashboard
 Page 1 — Overview
 
+![Page 1 — Overview](dashboard/screenshots/overview_full.jpg)
+
 Includes:
 
 KPI Cards (Total Sales, Total Profit, Profit Margin %, Total Orders)
@@ -156,6 +158,8 @@ Total Sales / Profit, Profit Margin % by States (map)
 Interactive filters: Year, Category, Region
 
 Page 2 — Deep Dive
+
+![Page 2 — Deep Dive](dashboard/screenshots/deepdive_full.jpg)
 
 Includes:
 
