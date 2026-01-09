@@ -1,242 +1,226 @@
-README.md — Superstore Sales Analysis Project
-(Full Professional Template)
-Superstore Sales Analysis & Power BI Dashboard
+# Superstore Sales Analysis & Power BI Dashboard
 
-A full end-to-end data analytics project using Python (Pandas, Seaborn, Matplotlib) for data cleaning & EDA, and Power BI for interactive dashboarding.
+A full **end-to-end data analytics project** using **Python** for data cleaning and exploratory analysis, and **Power BI** for interactive dashboards and business reporting.
 
-The goal is to analyze sales performance, profitability drivers, customer value, and discount impact using the popular Superstore dataset.
+The goal of this project is to analyze:
 
-📊 Project Overview
+- sales performance
+- profitability drivers
+- customer value
+- discount impact
+
+using the **Superstore dataset**.
+
+This project is designed as a **professional portfolio case** focused on business-oriented analytics and clear storytelling.
+
+---
+
+## Project Overview
 
 This project demonstrates a complete analytics workflow:
 
-Data Cleaning in Python
+- Data cleaning and preparation in Python  
+- Exploratory Data Analysis (EDA) with statistical summaries and 15+ visualizations  
+- Business insights based on real-world KPIs  
+- Interactive dashboards built in Power BI  
+- Final results packaged in a clean, structured GitHub repository  
 
-Exploratory Data Analysis (EDA) with statistical summaries and 15+ visualizations
+---
 
-Business Insights based on real-world KPIs
+## Dataset
 
-Interactive Dashboard built in Power BI
+**Source**
+- Sample Superstore dataset (Kaggle)
 
-Final Results packaged in a clear and structured GitHub repository
+**Scope**
+- Approximately 10,000 orders
+- Period: 2014–2017
 
-This project is designed as a portfolio showcase of practical analytics skills.
+**Key Columns**
+- Sales, Profit, Discount, Quantity
+- Category, Sub-Category
+- Region, State, Segment
+- Order Date, Ship Date
 
-🗂️ Dataset
+**Additional Fields Created After Cleaning**
+- Profit Margin
+- Order Year
+- Order Month
+- Order Month-Year (for time series)
+- Shipping Delay (days)
 
-Source: “Sample Superstore” dataset (Kaggle)
+---
 
-Rows: ~10,000 orders
+## Tools Used
 
-Period: 2014–2017
+### Python Stack
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-Columns include:
+### BI / Visualization
+- Power BI Desktop
 
-Sales, Profit, Discount, Quantity
+**Key DAX Measures**
+- Total Sales
+- Total Profit
+- Total Orders
+- Total Quantity
+- Profit Margin %
+- Average Discount %
+- Average Order Value (AOV)
 
-Category, Sub-Category
+---
 
-Region, State, Segment
+## Project Structure
 
-Order/Ship Dates
-
-After cleaning, additional fields were added:
-
-Profit Margin
-
-Order Month
-
-Order Year
-
-Order Month Year (for time series)
-
-Shipping Delay (days)
-
-🛠️ Tools Used
-Python Stack
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Jupyter Notebook
-
-BI / Visualization
-
-Power BI Desktop
-
-DAX measures:
-
-Total Sales
-
-Total Profit
-
-Total Orders
-
-Total Quantity
-
-Profit Margin %
-
-Average Discount %
-
-AOV
-
-📁 Project Structure
 superstore-sales-analysis/
-│
 ├── data/
-│   ├── Sample - Superstore.csv
-│   └── superstore_clean.csv
+│ ├── Sample - Superstore.csv
+│ └── superstore_clean.csv
 │
 ├── notebooks/
-│   └── superstore_analysis.ipynb
+│ └── superstore_analysis.ipynb
 │
 ├── dashboard/
-│   ├── superstore_dashboard.pbix
-│   └── screenshots/
-│       ├── overview_full.png
-│       ├── overview_kpis.png
-│       ├── overview_profit_by_category.png
-│       ├── deepdive_scatter_discount_profit.png
-│       └── ...
+│ ├── superstore_dashboard.pbix
+│ └── screenshots/
+│ ├── overview_full.png
+│ ├── overview_kpis.png
+│ ├── overview_profit_by_category.png
+│ ├── deepdive_scatter_discount_profit.png
+│ └── ...
 │
 ├── outputs/
-│   └── state_performance.csv
+│ └── state_performance.csv
 │
 └── README.md
 
 
-This structure mirrors a real professional analytics project.
+This structure mirrors a **real-world professional analytics project**.
 
-🔍 Exploratory Data Analysis (Python)
+---
 
-The EDA covered:
+## Exploratory Data Analysis (Python)
 
-Sales and profit by category, sub-category, region
+The EDA covers:
 
-Time series trends (monthly sales and profits)
-
-Discount impact on profitability
-
-Customer performance (Top 10 by profit)
-
-Worst performing products
-
-Geographic patterns
-
-Shipping delay insights
+- Sales and profit by category and sub-category
+- Regional and state-level performance
+- Monthly sales and profit trends
+- Discount impact on profitability
+- Top 10 customers by profit
+- Worst-performing products
+- Geographic patterns
+- Shipping delay analysis
 
 The notebook includes:
 
-12–18 visuals
+- 12–18 visualizations
+- GroupBy aggregation tables
+- Business commentary under each analysis section
 
-GroupBy tables
+---
 
-Business commentary under each section
+## Power BI Dashboard
 
-📈 Power BI Dashboard
-Page 1 — Overview
-
-![Page 1 — Overview](dashboard/screenshots/overview_full.jpg)
-
-Includes:
-
-KPI Cards (Total Sales, Total Profit, Profit Margin %, Total Orders)
-
-Profit by Category (bar chart)
-
-Sales by Sub-Category
-
-Monthly Sales trend (line)
-
-Total Sales / Profit, Profit Margin % by States (map)
-
-Interactive filters: Year, Category, Region
-
-Page 2 — Deep Dive
-
-![Page 2 — Deep Dive](dashboard/screenshots/deepdive_full.jpg)
+### Page 1 — Overview
 
 Includes:
 
-Discount vs Profit scatterplot (with trendline)
+- KPI cards:
+  - Total Sales
+  - Total Profit
+  - Profit Margin %
+  - Total Orders
+- Profit by Category (bar chart)
+- Sales by Sub-Category
+- Monthly Sales trend (line chart)
+- Sales, Profit, and Profit Margin by State (map)
 
-Top 10 Customers by Profit
+**Interactive filters**
+- Year
+- Category
+- Region
 
-Bottom 10 Products by Profit (Most Unprofitable)
+---
 
-Profit Margin distribution (histogram)
+### Page 2 — Deep Dive
 
-Region × Category Profit Matrix (heatmap)
+Includes:
 
-Filters: Year, Region, Category, Segment
+- Discount vs Profit scatter plot (with trendline)
+- Top 10 customers by profit
+- Bottom 10 products by profit (most unprofitable)
+- Profit margin distribution (histogram)
+- Region × Category profit matrix (heatmap)
 
-🧠 Key Business Insights
+**Filters**
+- Year
+- Region
+- Category
+- Segment
 
-Technology category drives the majority of profit, while Furniture contains several loss-making products, mainly due to discounting.
+---
 
-Discounts above 20–30% consistently cause negative profit, making discounting the primary source of profit erosion.
+## Key Business Insights
 
-Top customers contribute disproportionately to total profit, following a strong Pareto (80/20) pattern.
+- Technology drives the majority of profit, while Furniture contains several loss-making products due to heavy discounting.
+- Discounts above 20–30% consistently lead to negative profit, making discounting the primary source of profit erosion.
+- A small group of top customers contributes a disproportionate share of total profit, following a strong Pareto (80/20) pattern.
+- The Central region underperforms, with the highest concentration of unprofitable sales, while West and East regions lead in profitability.
+- Bottom 10 products generate significant losses and require immediate pricing or catalog review.
+- Profit margins are heavily skewed, with many orders operating at low or negative margins, indicating opportunities for pricing optimization.
 
-Central region underperforms, showing the highest concentration of unprofitable sales, while West and East regions lead in profitability.
+---
 
-Bottom 10 products generate significant losses, especially in Furniture and discounted items, requiring immediate pricing or catalog review.
+## Dashboard Screenshots
 
-Profit margins are heavily skewed, with many orders operating at low or negative margins, indicating opportunities for pricing strategy improvement.
+Screenshots of the dashboard pages are available in:
 
-📸 Dashboard Screenshots
-Overview Page
+dashboard/screenshots/
 
-Deep Dive Page
 
-(Additional screenshots available in /dashboard/screenshots/)
+---
 
-📘 How to Use This Repository
+## How to Use This Repository
 
-Open the Jupyter notebook for step-by-step data cleaning & EDA
+- Open the Jupyter notebook to review data cleaning and EDA
+- Open the Power BI `.pbix` file to explore interactive dashboards
+- Review screenshots for a quick visual overview
+- Read this README for a concise summary of insights
 
-Open the Power BI file (.pbix) to explore interactive visuals
+This structure makes the project easy to evaluate for hiring managers.
 
-Review screenshots in the dashboard folder
+---
 
-Read the insights summary in this README
+## What I Learned
 
-This structure makes it easy for hiring managers to browse and evaluate the project.
+- Building production-grade EDA workflows
+- Working with date features and time series
+- Creating business-focused DAX measures
+- Designing professional Power BI dashboards
+- Extracting actionable insights from data
+- Presenting results clearly to non-technical audiences
 
-📌 What I Learned
+---
 
-Building production-grade EDA workflows
+## Final Deliverables
 
-Working with date features and time series
+- Cleaned dataset: `superstore_clean.csv`
+- Python notebook: `superstore_analysis.ipynb`
+- Interactive Power BI dashboard: `superstore_dashboard.pbix`
+- Dashboard screenshots
+- Project README
 
-Creating DAX measures for business KPIs
+---
 
-Designing professional Power BI dashboards
+## Author
 
-Extracting actionable business insights
+**Mykola Trybushkin**  
+Data Analyst / Business Intelligence / Python Analytics  
 
-Presenting results clearly for non-technical audience
-
-🏁 Final Deliverables
-
-Cleaned dataset: superstore_clean.csv
-
-Python notebook: superstore_analysis.ipynb
-
-Interactive Power BI dashboard: superstore_dashboard.pbix
-
-Screenshot gallery
-
-README.md summary
-
-👤 Author
-
-Mykola Trybushkin
-Data Analyst / Business Intelligence / Python Analytics
-GitHub: https://github.com/kolyatri
+GitHub: https://github.com/kolyatri  
 LinkedIn: https://www.linkedin.com/in/mykola-trybushkin-217a44117/
