@@ -129,6 +129,7 @@ The notebook includes:
 ## Power BI Dashboard
 
 ### Page 1 — Overview
+![Page 1 — Overview](dashboard/screenshots/overview_full.png)
 
 Includes:
 
@@ -150,6 +151,7 @@ Includes:
 ---
 
 ### Page 2 — Deep Dive
+![Page 2 — Deep Dive](dashboard/screenshots/deepdive_full.png)
 
 Includes:
 
