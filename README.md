@@ -76,30 +76,32 @@ This project demonstrates a complete analytics workflow:
 
 ## Project Structure
 
+```
 superstore-sales-analysis/
 ├── data/
-│ ├── Sample - Superstore.csv
-│ └── superstore_clean.csv
+│   ├── Sample - Superstore.csv
+│   └── superstore_clean.csv
 │
 ├── notebooks/
-│ └── superstore_analysis.ipynb
+│   └── superstore_analysis.ipynb
 │
 ├── dashboard/
-│ ├── superstore_dashboard.pbix
-│ └── screenshots/
-│ ├── overview_full.png
-│ ├── overview_kpis.png
-│ ├── overview_profit_by_category.png
-│ ├── deepdive_scatter_discount_profit.png
-│ └── ...
+│   ├── superstore_dashboard.pbix
+│   └── screenshots/
+│       ├── overview_full.png
+│       ├── overview_kpis.png
+│       ├── overview_profit_by_category.png
+│       ├── deepdive_scatter_discount_profit.png
+│       └── ...
 │
 ├── outputs/
-│ └── state_performance.csv
+│   └── state_performance.csv
 │
 └── README.md
+```
 
+This structure mirrors a real-world professional analytics project.
 
-This structure mirrors a **real-world professional analytics project**.
 
 ---
 
